@@ -68,6 +68,30 @@ export default function AssignmentEditor() {
             </td>
           </tr>
           {/* Complete on your own */}
+
+          <tr>
+            <td align="right" valign="top">
+              <label htmlFor="wd-assign-to">Assign to</label>
+            </td>
+            <td>
+              <select id="wd-assign-to">
+              <option value="Assign-to">Everyone</option>
+              </select>
+              {/* Add more to this drop down when I receive more info on what is needed */}
+            </td>
+          </tr>
+
+          <tr>
+            <td align="right" valign="top">
+            </td>
+            <label htmlFor="wd-due-date">Due</label>
+            <input type="date" id="wd-group"></input>
+            <td>
+
+              {/* Add more to this drop down when I receive more info on what is needed */}
+            </td>
+          </tr>
+
         </table>
       </div>
   );}
