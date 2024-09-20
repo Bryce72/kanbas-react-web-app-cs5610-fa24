@@ -8,6 +8,9 @@ export default function Kanbas() {
     <div id="wd-kanbas">
       <table>
         <tr>
+          <h1>Kanbas</h1>
+        </tr>
+        <tr>
           <td valign="top">
             <KanbasNavigation />
           </td>

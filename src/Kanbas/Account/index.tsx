@@ -7,11 +7,16 @@ export default function Account() {
     return (
         <div id="wd-account-screen">
             <table>
+            <tr>
+          <h2>Account</h2>
+        </tr>
                 <tr>
+                
                     <td valign="top">
-                        <AccountNavigation />
+                        <AccountNavigation />    
                     </td>
                     <td valign="top">
+                    
                         <Routes>
                             <Route path="/" element={<Navigate to="/Kanbas/Account/Signin" />} />
                             <Route path="/Signin" element={<Signin />} />
