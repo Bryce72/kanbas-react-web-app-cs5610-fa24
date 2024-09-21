@@ -7,6 +7,10 @@ import Margins from "./Margins";
 import Corners from "./Corners";
 import Dimentions from "./Dimentions";
 import Positions from "./Positions";
+import Zindex from "./Zindex";
+import Float from "./Float";
+import GridLayout from "./GridLayout";
+import Flex from "./Flex";
 import { Link } from "react-router-dom";
 
 
@@ -69,6 +73,10 @@ export default function Lab2() {
       <Corners />
       <Dimentions />
       <Positions />
+      <Zindex />
+      <Float />
+      <GridLayout />
+      <Flex />
     </div>
   );
 }
