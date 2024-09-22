@@ -12,12 +12,15 @@ import Float from "./Float";
 import GridLayout from "./GridLayout";
 import Flex from "./Flex";
 import ReactIconsSampler from "./ReactIcons";
-import { Link } from "react-router-dom";
+import BootstrapGrids from "./BootstrapGrids";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import BootstrapTables from "./BootstrapTables";
+import ResponsiveTables from "./ResponsiveTables";
 
 
 export default function Lab2() {
   return (
-    <div id="wd-lab2">
+    <div id="wd-lab2" className="container">
       <h2>Lab 2 - Cascading Style Sheets</h2>
       <h3>Styling with the STYLE attribute</h3>
       <p>
@@ -77,8 +80,16 @@ export default function Lab2() {
       <Zindex />
       <Float />
       <GridLayout />
+      <br /> <br /> <br /> <br />
       <Flex />
+      <br /> <br />
       <ReactIconsSampler />
+      <br /> <br />
+      <BootstrapGrids />
+      <ScreenSizeLabel />
+      <BootstrapTables />
+      <ResponsiveTables />
     </div>
+    
   );
 }
