@@ -8,7 +8,7 @@ body * {  font-family: Arial, Helvetica, sans-serif;  }
 }
 
 
-.list-group.wd > .list-group-item.active {
+.list-group.wd > .list-group-item:focus {
     color: black;
     background-color: white;
     border-left: 3px solid black !important;
@@ -31,3 +31,37 @@ body * {  font-family: Arial, Helvetica, sans-serif;  }
     border-left: 3px solid green !important;
   }
   
+  .modules-controls-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.modules-controls-grid-items {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+#wd-account-navigation .nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #dc3545; /* Default text-danger color */
+  text-decoration: none;
+}
+
+#wd-account-navigation .nav-link.active {
+  color: black;
+  font-weight: bold;
+  border-left: 3px solid black; /* Add the vertical line as in the image */
+  padding-left: 10px;
+}
+
+#wd-account-navigation .nav-link:hover {
+  text-decoration: none;
+  color: #007bff;
+}
