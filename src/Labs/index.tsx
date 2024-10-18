@@ -8,10 +8,10 @@ import store from "./store";
 import { Provider } from "react-redux";
 export default function Labs() {
   return (
+    <Provider store={store}>
     <div>
       <h1>Bryce Dunlap</h1> <br />
 
-      
       <h1>Labs</h1>
       <TOC />
       <Routes>
@@ -22,5 +22,6 @@ export default function Labs() {
         <Route path="Lab4" element={<Lab4 />} />
       </Routes>
     </div>
+    </Provider>
   );
 }
