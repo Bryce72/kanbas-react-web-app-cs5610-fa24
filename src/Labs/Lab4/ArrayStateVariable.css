@@ -1,4 +1,4 @@
-ul {
+ul.ulArrayState {
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -9,7 +9,7 @@ ul {
     margin: 0; 
 }
 
-li {
+li.liArrayState {
     display: flex;
     justify-content: space-between; 
     align-items: center;
